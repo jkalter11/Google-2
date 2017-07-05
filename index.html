@@ -16,11 +16,17 @@
 
 
 
-    <span id="barre">
-        Gmail
-        Images
-        <img src = "images/menu_gg.png"/>
-        <img src = "images/notifications.png"/>
+    <span id="menu">
+        <ul>
+            <li>Gmail</li>
+            <li>Images</li>
+            <li><img src = "images/menu_gg.png"/></li>
+            <li><img src = "images/notifications.png"/></li>
+        </ul>
+
+
+
+
 
     </span>
 
@@ -30,8 +36,10 @@
         <img src="images/logo.png" />
 
 
-        <form>
+        <form id="barre">
             <input type="text" name="pseudo" id="pseudo" placeholder="The Hacking Project" size="30" maxlength="10" />
+        </form>
+        <form id="bouton">
             <INPUT TYPE="submit" NAME="recherche" VALUE="Recherche Google">
             <INPUT TYPE="submit" NAME="chance" VALUE="J'ai de la chance">
         </form>
@@ -39,13 +47,19 @@
     </div>
 
 
-    <span id="menu_bas">
-        Publicité
-        Entreprise
-        A propos
-        Confidentialité
-        Conditions
-        Paramètres
+    <span id="footer">
+        <ul>
+            <li>Publicité</li>
+            <li>Entreprise</li>
+            <li>A propos</li>
+        </ul>
+        <ul>
+            <li>Confidentialité</li>
+            <li>Conditions</li>
+            <li>Paramètres</li>
+        </ul>
+
+
     </span>
 
 </body>
